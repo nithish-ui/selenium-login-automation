@@ -49,9 +49,9 @@ selenium-login-automation/
 │
 selenium-login-automation/
 │
-├── tests/              # Test scripts
-├── Jenkinsfile         # CI pipeline configuration
-├── browser_check.py    # Browser compatibility checks
-├── requirements.txt    # Dependencies
-├── .gitignore
-└── README.md
+─ tests/              # Test scripts
+── Jenkinsfile         # CI pipeline configuration
+── browser_check.py    # Browser compatibility checks
+── requirements.txt    # Dependencies
+── .gitignore
+── README.md
