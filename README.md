@@ -1,4 +1,4 @@
-Selenium Login Automation Framework
+Selenium Login Automation 
 # Overview
 
 This project is an automated testing framework built using Selenium and PyTest to validate login functionality of web applications. It helps reduce manual testing effort and ensures reliable authentication workflows.
@@ -47,8 +47,11 @@ pytest --html=report.html
 📂 Project Structure
 selenium-login-automation/
 │
-├── tests/
-├── drivers/
-├── reports/
-├── requirements.txt
+selenium-login-automation/
+│
+├── tests/              # Test scripts
+├── Jenkinsfile         # CI pipeline configuration
+├── browser_check.py    # Browser compatibility checks
+├── requirements.txt    # Dependencies
+├── .gitignore
 └── README.md
